@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Sussy")
+                    Greeting("Sonic R - Living in the City (Radical City)")
                 }
             }
         }
@@ -31,7 +31,37 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+    Text(text = "$name \n\n" +
+            "Living in the city\n" +
+            "You know you have to survive\n" +
+            "Living in the city\n" +
+            "You've got to keep the dream alive\n" +
+            "Living in the city\n" +
+            "Where everything is free\n" +
+            "Living in the city\n" +
+            "Can't you see?\n" +
+            "Living in the city\n" +
+            "You know you have to survive\n" +
+            "Living in the city\n" +
+            "You've got to keep the dream alive\n" +
+            "Living in the city\n" +
+            "Where everything is free\n" +
+            "Living in the city\n" +
+            "Can't you see?\n" +
+            "So many different things to see\n" +
+            "There's no time\n" +
+            "So many different things to do\n" +
+            "But there's no time\n" +
+            "So many people all around\n" +
+            "So many feelings to be found\n" +
+            "Living in a city where no one lets you down\n" +
+            "Living in the city\n" +
+            "You know you have to survive\n" +
+            "Living in the city\n" +
+            "You've got to keep the dream alive\n" +
+            "Living in the city\n" +
+            "Where everything is free\n" +
+            "Living in the city\n")
 }
 
 @Preview(showBackground = true)
